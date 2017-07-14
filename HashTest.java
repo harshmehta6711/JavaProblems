@@ -1,4 +1,4 @@
-package com.java;
+//package com.java;
 
 public class HashTest {
 	// keeping the size of the bucket fixed to 500 for simplicity
