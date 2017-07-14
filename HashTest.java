@@ -1,5 +1,5 @@
 package com.java;
-
+//This program is a simple hash map
 public class HashTest {
 	// keeping the size of the bucket fixed to 500 for simplicity
 	private Node[] list = new Node[500];
@@ -25,6 +25,7 @@ public class HashTest {
 	}
 
 //	Get the object based on key
+// 	
 	Object get(Object key) {
 		hash = Math.abs(key.hashCode() % 500);
 		Node current = list[hash];
